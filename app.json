@@ -1,0 +1,36 @@
+{
+	"name" : "How2Props",
+	"author" : "Justin Furniss",
+	"description" : "L2Props N3W8!",
+    "longDescription" : "You thought that Propping messages in Slack was only for the l337 H4x0r2... Not true!  Here is how you properly prop.  Props, you gotta have'em!",
+	"icon_128" : "img/icon_128.png",
+	"icon_512" : "img/icon_512.png",
+	"screenshots" : [ "img/how_to_props_image.png", "img/how_to_props_message.png", "img/how_to_shoutout.png"],
+	"video" : "https://www.youtube.com/embed/0nyje2npVE8",
+    "license" : "Creative Commons Zero",
+    "source" : "https://github.com/propsboard/props-client-js",
+	"version" : "1",
+	"allowedDomains" : [],
+    "minDisplayInterval" : 60,
+    "params" : [],
+    "requests" : [],
+	"bundles" : [
+      {
+        "name" : "default",
+        "html" : "views/app.html",
+        "css" : "style/app.css",
+        "js" : "js/app.js",
+        "loadImage" : "img/loadimage.png",
+        "defaultPreroll": "img/preroll.gif",
+        "loadBackgroundColor" : "#4d6066"
+      }
+    ],
+    "images" : "img/",
+  "includes" : [
+    {"name" : "jquery" , "path" : "lib/jquery-2.1.4.min.js", "type" : "js"},
+    {"name" : "unslider", "path" : "lib/unslider-min.js", "type" : "js"},
+    {"name" : "unslidercss", "path" : "lib/unslider.css", "type" : "css"},
+    {"name" : "unsliderdotscss", "path" : "lib/unslider-dots.css", "type" : "css"}
+  ]
+
+}
