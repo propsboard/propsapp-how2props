@@ -1,6 +1,3 @@
-
-
-
 var app = {
   AppLoad: function (data, app) {
 

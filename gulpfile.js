@@ -11,6 +11,6 @@ gulp.task('export', function () {
       '*img/**',
       '*style/**'
     ])
-    .pipe(zip('propsapp-webviewer.zip'))
+    .pipe(zip('propsapp-how2props.zip'))
     .pipe(gulp.dest('dist'));
 });
