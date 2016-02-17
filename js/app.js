@@ -10,7 +10,7 @@ var app = {
     for (var i = 0; i < slidesToShow.length; i++) {
       $('.sliderList')
         .append($('<li>')
-          .css('background-image', 'url(' + slidesToShow[i] + ')'));
+        .css('background-image', 'url(' + slidesToShow[i] + ')'));
     }
 
     $('.how2slider').unslider({
