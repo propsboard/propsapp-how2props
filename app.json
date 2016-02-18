@@ -11,7 +11,7 @@
     "source" : "https://github.com/propsboard/props-client-js",
 	"version" : "1",
 	"allowedDomains" : [],
-    "minDisplayInterval" : 60,
+    "minDisplayInterval" : 3600,
     "params" : [],
     "requests" : [],
 	"bundles" : [
@@ -20,7 +20,7 @@
         "html" : "views/app.html",
         "css" : "style/app.css",
         "js" : "js/app.js",
-        "loadImage" : "img/loadimage.png",
+        "loadImage" : "img/superlogo.png",
         "defaultPreroll": "img/preroll.gif",
         "loadBackgroundColor" : "#4d6066"
       }
